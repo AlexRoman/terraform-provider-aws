@@ -1387,6 +1387,7 @@ func Provider() *schema.Provider {
 			"aws_ecs_tag":                        ecs.ResourceTag(),
 			"aws_ecs_task_definition":            ecs.ResourceTaskDefinition(),
 			"aws_ecs_task_set":                   ecs.ResourceTaskSet(),
+			"aws_ecs_standalone_task":            ecs.ResourceStandaloneTask(),
 
 			"aws_efs_access_point":              efs.ResourceAccessPoint(),
 			"aws_efs_backup_policy":             efs.ResourceBackupPolicy(),
